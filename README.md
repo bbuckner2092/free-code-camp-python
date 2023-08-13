@@ -6,3 +6,4 @@
 4. Used the modulus operator to show how remainders work.
 5. 1st showcase of how variables work.
 6. **abs:** Function used to show the "absolute" value of the number in our function.
+7. **pow:** Allows us to raise a number to whatever power we specify.
