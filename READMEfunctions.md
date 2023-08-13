@@ -4,6 +4,7 @@
 - A collection of code that performs a specific task.
 - Helps you to organize your code better.
 - A core concept for programming in python.
+- We can give functions information in order to make them more powerful.
 
 ### Creating a function() taht says hi to a user.
 1. Write def. (It will indicate that this person is wanting to use a function.)
@@ -21,3 +22,23 @@ _Note:_ When we run the file wihtout calling the function, it will have no outpu
 1. Type out the name of the function with the open and closed parenthesis.
 Example: sayhi(). 
 _Note:_ Be sure to save the file prior to running it or else there will be no output.
+
+#### The order of Execution in Python
+
+We have the following written out:
+def sayhi():
+    print("Hello User")
+
+print("Top")
+sayhi()
+print("Bottom")
+
+The order of execution will be top to bottom. It will run
+1. print("Top") first
+2. sayhi() function
+3. print("Bottom")
+
+##### Naming convention for functions:
+- In all lower case
+- If there is two or more words then use an underscore to seperate them.
+- Short names do not technically need an underscore.
