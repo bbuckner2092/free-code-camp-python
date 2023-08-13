@@ -9,3 +9,4 @@
 7. **pow:** Allows us to raise a number to whatever power we specify.
 8. **min:** A funciton that will pick the smaller number (or variable) between two options.
 9. **round:** A function that will round up or down a decimal/float.
+10. **from math import *:** This allows us to have acces to other math functions. You have to be sure to run the from math import * in order to access the function you are wanting to use. In addition, the floor() will round down to the main integer.
