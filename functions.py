@@ -1,6 +1,5 @@
-def sayhi(): 
-    print("Hello User")
+def sayhi(name, age): 
+    print("Hello " + name + ", you are " + age)
 
-print("Top")
-sayhi()
-print("Bottom")
+sayhi("Mike", "35")
+sayhi("Steve", "70")
