@@ -5,3 +5,4 @@ print(10 % 3)
 
 my_num = -5
 print(min(3, 2))
+print(round(3.7))
