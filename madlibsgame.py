@@ -1,3 +1,5 @@
-print("Roses are red")
-print("Violets are blue")
-print("I love you")
+color = input("Enter a color: ")
+
+print("Roses are {color}")
+print("{plural noun} are blue")
+print("I love {celebrity}")
