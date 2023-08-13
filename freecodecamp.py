@@ -1,1 +1,1 @@
-print('What are we doing?')
+print(2)
