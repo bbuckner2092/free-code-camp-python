@@ -1,3 +1,3 @@
 friends = ["Reggie", "Warren", "David"]
 
-print(friends[2])
+print(friends[-1])
