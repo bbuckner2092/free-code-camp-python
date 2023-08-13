@@ -6,7 +6,7 @@
 - A core concept for programming in python.
 - We can give functions information in order to make them more powerful.
 
-### Creating a function() taht says hi to a user.
+### Creating a function() that says hi to a user.
 1. Write def. (It will indicate that this person is wanting to use a function.)
 2. Put a space after the word def.
 3. write the name of the function. (In this case the function is sayhi).
