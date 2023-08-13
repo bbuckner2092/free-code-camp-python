@@ -11,3 +11,4 @@ Using functions() with list in Python. Some of the most common and popular funct
 6. **po():** Removes the last element of the list.
 7. **friends.index("string")::** The previous code allows for us to see where in the list a string/name is positioned at.
 8. **friends.count("string"):** By using this code, we are able to retrieve the # of times a certain string is inside of a list. This is case sensitive. 
+9. **friends.sort():** With this code, the list that e have will get sorted in ascending order.
