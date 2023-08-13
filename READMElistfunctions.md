@@ -9,3 +9,4 @@ Using functions() with list in Python. Some of the most common and popular funct
 4. **remove():**  We include the remove function to the friends variable. Be sure to put in double quotes the individual's name that you are wanting to exist now.
 5. **clear():** Gives us an empty list. 
 6. **po():** Removes the last element of the list.
+7. **friends.index("string"))::** The previous code allows for us to see where in the list a string/name is positioned at.
