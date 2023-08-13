@@ -5,8 +5,10 @@
 - Helps you to organize your code better.
 - A core concept for programming in python.
 - We can give functions information in order to make them more powerful.
+- It is good to break your code up into different functions, not just one long function.
+- **Parameter:** Additional information that gets passed into the function.
 
-### Creating a function() taht says hi to a user.
+### Creating a function() that says hi to a user.
 1. Write def. (It will indicate that this person is wanting to use a function.)
 2. Put a space after the word def.
 3. write the name of the function. (In this case the function is sayhi).
@@ -23,9 +25,10 @@ _Note:_ When we run the file wihtout calling the function, it will have no outpu
 Example: sayhi(). 
 _Note:_ Be sure to save the file prior to running it or else there will be no output.
 
-#### The order of Execution in Python
+### The order of Execution in Python
 
 We have the following written out:
+
 def sayhi():
     print("Hello User")
 
@@ -38,7 +41,14 @@ The order of execution will be top to bottom. It will run
 2. sayhi() function
 3. print("Bottom")
 
-##### Naming convention for functions:
+### Naming convention for functions:
 - In all lower case
 - If there is two or more words then use an underscore to seperate them.
 - Short names do not technically need an underscore.
+
+### Paremeters passed into functions
+1. Put in naming convention that will "read" in a logical way. Since I want to sayhi() it only makes sense that we put name inside of the parenthesis. 
+2. We then would have to make sure that whenever we actually call/run the funciton that a name is placed inside of the parenthesis. Once this has been established, we can now access the parameter inside of the function. 
+_Note 1:_ We can give the function information and it will perform its task based off of that.
+_Note 2:_ We are able to have as many parameters as we like.
+_Note 3:_ You are able to pass in an integer and/or a string if you like.
