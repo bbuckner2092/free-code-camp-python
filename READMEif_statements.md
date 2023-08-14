@@ -7,6 +7,7 @@ _Summary:_
 - If conditions are true, then we take a certain action. If those conditions are false then there will be a different action taken. 
 - With these examples in this markdown, the if statements become more complex.
 - If statements have to be reduced down to either a true or false evaluation.
+- Else will be used as our "otherwise".
 
 ## Text that will be used for the mapping out of the Python code.
 
