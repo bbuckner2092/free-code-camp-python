@@ -34,3 +34,12 @@ otherwise
 1. Created a varialbe (is_male) that was equal to True. 
 2. Wrote out the following if statement -> if is_male:
 3. Under the if statement, included code that would run IF the variable was in fact true. It was the following code -> Print("You are a male")
+
+## Version 2: Male and/or Tall
+1. have 2 variables that are equal to True or False.
+**is_male = True**
+**is_tall = True**
+2. Write out the _if statement_.
+** if is_male or is_tall: print**("You are a male or tall or both")
+3. Conclude with an _else statement_.
+** else: print("You are neither male nor tall")
