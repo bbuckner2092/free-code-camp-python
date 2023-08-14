@@ -2,6 +2,10 @@
 
 _Summary:_
 - Allow Python to return information from a function.
+- **Parameters** gives something to the function.
+- **Return Statements** gives something back to the user. 
+- **Return** breaks the user out of the function. There is no extra code that could be written after it inside of the function. It short circuits once the return completes its task(s).
+- You can **return** any type back from the **return** statement.
 
 ## Function that Cubes a Number
 1. Define the cube definition: def cube():
