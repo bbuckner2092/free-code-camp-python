@@ -76,6 +76,7 @@ _Summary:_ Helps our program to make decisions.
 
 ### A Boolean Variable that is going to store whether a user is a male or not
 
-1.) Created a variable (is_male) that was equal to True.
-2.) Wrote out the following if statement -> if is_male:
+1.) Created a variable (is_male) that was equal to True. <br />
+2.) Wrote out the following if statement -> if is_male: <br />
 3.) Under the if statment, included code that would run IF the variable was in fact true. It was the following code -> Print("You are a male")
+
