@@ -66,3 +66,16 @@ _Summary:_ Using functions() with list in Python. Some of the msot common and po
 
 ## If Statements
 _Summary:_ Helps our program to make decisions.
+
+- Allows the program to respond to the input that is given.
+- Programs are becoming a lot smarter.
+- If conditions are true, then we take a certain action. If those conditions are false then there will be a different action taken.
+- With these examples in this markdown, the if statements become more complex.
+-If statement have to be reduced down to either a true or false evaluaiton.
+-Else will be used as our "otherwise".
+
+### A Boolean Variable that is going to store whether a user is a male or not
+
+1.) Created a variable (is_male) that was equal to True.
+2.) Wrote out the following if statement -> if is_male:
+3.) Under the if statment, included code that would run IF the variable was in fact true. It was the following code -> Print("You are a male")
