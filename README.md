@@ -5,6 +5,8 @@
 - **Lists**
 - **List Functions**
 - **If Statements**
+- **Return Statements**
+- **For Loop**
 
 ## Working with Numbers
 
@@ -80,3 +82,53 @@ _Summary:_ Helps our program to make decisions.
 2.) Wrote out the following if statement -> if is_male: <br />
 3.) Under the if statment, included code that would run IF the variable was in fact true. It was the following code -> Print("You are a male")
 
+## Return Statements
+_Summary:_ <br />
+-Allow Python to return information from a function.<br />
+-**Parameters:** gives something to the function.<br />
+-**Return Statements:** gives something back to the user.<br />
+-**Return:** breaks the user out of the function. There is no extra code that could be written after it inside of the function. It short circuits once the **return** completes its task(s).<br />
+-You can **return** any type back from the **return** statement.
+
+### Function that Cubes a Number
+1.) Define the cube definition: def cube():
+2.) For the parameter, write **num**
+
+## For Loop
+_Summary:_ 
+-Allows us to loop over different collection of items.<br />
+-It provides a specific purpose.<br />
+-For the "collection" it can be a variable and/or a hard-coded string.<br />
+
+### For Loop Example 1 - 'Giraffe Academy' Code:
+for letter in "Giraffe Academy":
+    print(letter)
+-For each letter in "Giraffe Academy" we are printing out those 
+letters 1 by 1.
+---
+### For Loop Example 2 friends Code:
+friends = ['Jim', 'Karen', 'Kevin']
+for friend in friends:
+    print(friend)
+-For an array/list, it will print out each friends' name 1 by 1.
+---
+### For Loop Example 3 Range Code:
+for index in range(10):
+    print(index)
+# Prints out the range not including 10. Positionally it begins at 0.
+---
+for index in range(3, 10):
+    print(index)
+# range(start,stop,step) - for this code it will start at 3 and print 
+# up to 10 without including 10. <br />
+
+### For Loop Example 4 Range + if statement Code:
+friends = ['Jim', 'Karen', 'Kevin']
+
+for index in range(5):
+    if index == 0:
+        print('first Iteration')
+    else:
+        print('Not first')
+# This code prints out either 'first Iteration' if it is the first index
+# or it will print out 'Not first' for the following indexes.
